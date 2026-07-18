@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSS TechLabs, Research and Software Solutions | AI, ML &amp; Software Development, Hyderabad</title>
+  <meta name="description" content="RSS TechLabs is a Hyderabad-based R&D company delivering Artificial Intelligence, Machine Learning, Generative AI, Cyber Security and Software Development solutions, bridging academia with industry." />
+  <meta name="keywords" content="RSS TechLabs, AI company Hyderabad, Machine Learning, Deep Learning, Generative AI, Cyber Security, Software Development, Faculty Development Programs, Industry Workshops" />
+  <meta name="author" content="RSS TechLabs" />
+  <meta property="og:title" content="RSS TechLabs, Research and Software Solutions" />
+  <meta property="og:description" content="Bridging Academia with Industry. AI, ML, Generative AI, Cyber Security and Software Development from Hyderabad, India." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b1f3a'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='26' font-weight='bold' fill='%234f8ef7' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ===== Icon library (inline SVG sprite, stroke style for a consistent corporate icon set) ===== -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <symbol id="i-logo" viewBox="0 0 48 48" fill="none">
+      <path d="M24 6c-7 0-13 5-13 12 0 3-2 4-2 7s2 4 2 6c0 6 6 11 13 11s13-5 13-11c0-2 2-3 2-6s-2-4-2-7c0-7-6-12-13-12Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+      <circle cx="17" cy="19" r="2" fill="currentColor"/><circle cx="31" cy="17" r="2" fill="currentColor"/>
+      <circle cx="24" cy="27" r="2" fill="currentColor"/><circle cx="17" cy="33" r="2" fill="currentColor"/>
+      <circle cx="31" cy="31" r="2" fill="currentColor"/>
+      <path d="M17 19l7 8m0 0 7-10m-7 10-7 6m7-6 7 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-ai" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/>
+      <path d="M9 6V3m6 3V3M9 21v-3m6 3v-3M6 9H3m3 6H3m18-6h-3m3 6h-3"/>
+    </symbol>
+    <symbol id="i-ml" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 20h18M4 16l5-5 4 3 6-7"/><circle cx="9" cy="11" r="1.3" fill="currentColor" stroke="none"/><circle cx="13" cy="14" r="1.3" fill="currentColor" stroke="none"/><circle cx="19" cy="7" r="1.3" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-dl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="5" cy="12" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="12" cy="19" r="2"/><circle cx="19" cy="12" r="2"/>
+      <path d="M6.8 10.8 10.3 6.6m-3.5 6.6 3.5 4.2m3.4-11 3.5 4.2m-3.5 6.6 3.5-4.2"/>
+    </symbol>
+    <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 5l-4 14"/>
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3v4m0 10v4M3 12h4m10 0h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/><circle cx="12" cy="12" r="2.4"/>
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12a8 8 0 0 1-8 8H4l2.2-2.6A8 8 0 1 1 21 12Z"/><path d="M8.5 10.5h7m-7 3.5h4.5"/>
+    </symbol>
+    <symbol id="i-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 20V10m5.5 10V4M15 20v-8m5 8V7"/>
+    </symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3 5 6v5c0 4.5 3 8.4 7 10 4-1.6 7-5.5 7-10V6l-7-3Z"/><path d="m9.2 12 2 2 3.8-4"/>
+    </symbol>
+    <symbol id="i-dev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="4.5" width="18" height="13" rx="2"/><path d="m8.5 9-2.5 2 2.5 2m7-4 2.5 2-2.5 2M9.5 21h5"/>
+    </symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m12 4 10 5-10 5L2 9l10-5Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9v5"/>
+    </symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="3"/>
+      <path d="M12 2.5v3m0 13v3M4.6 4.6l2.1 2.1m10.6 10.6 2.1 2.1M2.5 12h3m13 0h3M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/>
+    </symbol>
+    <symbol id="i-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9.5 12 4l9 5.5M5 10v7m4.5-7v7m5-7v7m4.5-7v7M3 20h18"/>
+    </symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 12h4l2-5 4 10 2-5h6"/>
+    </symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 20V9l6 3.5V9l6 3.5V5h6v15H3Z"/><path d="M7 16.5h2m3 0h2m3 0h2"/>
+    </symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 10V6.5a3 3 0 0 1 6 0V10"/>
+    </symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 15c5-3.5 6.5-8 6.5-11.5C15 3.5 10.5 5 7 10l-3 1 4 2 2 4 2-2Z"/><path d="M7.5 16.5C6 18 5.5 20.5 5.5 20.5S8 20 9.5 18.5"/><circle cx="13.5" cy="8.5" r="1.4"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 4h4l1.5 4.5L8 10a12 12 0 0 0 6 6l1.5-2.5L20 15v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4 7 8 6 8-6"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16.5 9"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 12h15m-6-6 6 6-6 6"/>
+    </symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 18h10a4 4 0 0 0 .6-7.95A5.5 5.5 0 0 0 6.5 9 4.5 4.5 0 0 0 7 18Z"/>
+    </symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m6 9 6 6 6-6"/>
+    </symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0M16 5.5a3 3 0 0 1 0 5.8M17 20a5.5 5.5 0 0 0-3-4.9"/>
+    </symbol>
+    <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16M15 9h2a2 2 0 0 1 2 2v10M3 21h18M8 7h2m-2 4h2m-2 4h2"/>
+    </symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="9" r="5.5"/><path d="m8.5 13.5-1 7 4.5-2.5 4.5 2.5-1-7"/><path d="M12 6.5v2.2l1.6 1"/>
+    </symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 6a2 2 0 0 1 2-2h3.4l2 2H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"/><path d="m9.3 13 2 2 3.4-4"/>
+    </symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 6.5a3 3 0 0 0-3-3 2.6 2.6 0 0 0-2.6 2.2A2.7 2.7 0 0 0 4 8.2a2.7 2.7 0 0 0 1 2.1A2.8 2.8 0 0 0 4.4 14 2.7 2.7 0 0 0 7 17.6 2.7 2.7 0 0 0 9.6 20 2.4 2.4 0 0 0 12 17.7Z"/>
+      <path d="M12 6.5a3 3 0 0 1 3-3 2.6 2.6 0 0 1 2.6 2.2A2.7 2.7 0 0 1 20 8.2a2.7 2.7 0 0 1-1 2.1 2.8 2.8 0 0 1 .6 3.7 2.7 2.7 0 0 1-2.6 3.6A2.7 2.7 0 0 1 14.4 20 2.4 2.4 0 0 1 12 17.7Z"/>
+    </symbol>
+  </svg>
+
+  <!-- ===== Header: primary navigation ===== -->
+  <div class="site-head" id="nav">
+    <header class="nav">
+      <div class="container nav__inner">
+        <a href="#home" class="brand" aria-label="RSS TechLabs, home">
+          <img class="brand__img" src="assets/logo.webp" alt="RSS TechLabs, Research and Software Solutions" width="720" height="181" />
+        </a>
+
+        <nav class="nav__links" id="navLinks" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#industries">Industries</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn--primary nav__cta">Request a Consultation</a>
+
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <!-- animated ambient background -->
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__grid"></span>
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+        <span class="blob blob--3"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <!-- Left: headline & CTAs -->
+        <div class="hero__copy">
+          <p class="hero__eyebrow reveal"><span class="hero__eyebrow-line"></span>Research &amp; Development · Est. Hyderabad, India</p>
+          <h1 class="hero__title reveal">Engineering Intelligence.<br />Delivering <span class="accent">Excellence.</span></h1>
+          <span class="hero__divider reveal" aria-hidden="true"></span>
+          <p class="hero__lede reveal">
+            RSS TechLabs partners with institutions and enterprises to transform research in
+            Artificial Intelligence, Machine Learning and Cyber Security into dependable,
+            production-grade software, bridging academia with industry.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#services" class="btn btn--primary btn--lg"><svg class="ic"><use href="#i-rocket"/></svg>Explore Our Capabilities<svg class="ic"><use href="#i-arrow"/></svg></a>
+            <a href="#about" class="btn btn--ghost btn--lg"><svg class="ic"><use href="#i-chat"/></svg>About The Firm</a>
+          </div>
+
+          <ul class="hero__stats reveal" aria-label="Company highlights">
+            <li class="hstat">
+              <span class="hstat__icon"><svg class="ic"><use href="#i-folder"/></svg></span>
+              <span class="hstat__value"><span class="stat__num" data-count="150">0</span>+</span>
+              <span class="hstat__label">Projects Delivered</span>
+            </li>
+            <li class="hstat">
+              <span class="hstat__icon"><svg class="ic"><use href="#i-brain"/></svg></span>
+              <span class="hstat__value"><span class="stat__num" data-count="10">0</span>+</span>
+              <span class="hstat__label">Research Domains</span>
+            </li>
+            <li class="hstat">
+              <span class="hstat__icon"><svg class="ic"><use href="#i-users"/></svg></span>
+              <span class="hstat__value"><span class="stat__num" data-count="25">0</span>+</span>
+              <span class="hstat__label">Industry Partners</span>
+            </li>
+            <li class="hstat">
+              <span class="hstat__icon"><svg class="ic"><use href="#i-badge"/></svg></span>
+              <span class="hstat__value"><span class="stat__num" data-count="5">0</span>+</span>
+              <span class="hstat__label">Years of Excellence</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to content"><svg class="ic"><use href="#i-chevron"/></svg></a>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__text">
+            <p class="eyebrow reveal">About the Firm</p>
+            <h2 class="section__title reveal">A research practice built<br />for real-world delivery</h2>
+            <p class="reveal">
+              <strong>RSS TechLabs, Research and Software Solutions</strong> is an R&amp;D company
+              founded by <strong>Shiva Kumar</strong> in Hyderabad, Telangana. We operate at the
+              intersection of rigorous research and disciplined engineering: emerging technologies
+              are studied deeply, then translated into software, products and programs that create
+              measurable value.
+            </p>
+            <p class="reveal">
+              From intelligent systems powered by Machine Learning and Generative AI to secure,
+              production-grade software, our work is guided by a single conviction, the gap between
+              what is taught in classrooms and what industry demands can, and should, be closed.
+            </p>
+
+            <div class="about__pillars">
+              <article class="pillar reveal">
+                <span class="pillar__num">01</span>
+                <div>
+                  <h3>Our Vision</h3>
+                  <p>To be the trusted bridge between academia and industry, where research insight becomes engineering excellence.</p>
+                </div>
+              </article>
+              <article class="pillar reveal">
+                <span class="pillar__num">02</span>
+                <div>
+                  <h3>Our Mission</h3>
+                  <p>Deliver innovative AI and software solutions, and equip students, faculty and professionals with industry-ready skills.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section section--tinted" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Capabilities</p>
+          <h2 class="section__title">Our Expertise &amp; Services</h2>
+          <p class="section__sub">Twelve focused practice areas spanning research, engineering and professional education.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-ai"/></svg></span><h3>Artificial Intelligence</h3><p>Intelligent systems and AI strategy, from feasibility research to deployed solutions.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-ml"/></svg></span><h3>Machine Learning</h3><p>Predictive models, recommendation engines and ML pipelines built for production.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-dl"/></svg></span><h3>Deep Learning</h3><p>Neural network architectures for complex vision, language and signal problems.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-code"/></svg></span><h3>Python Programming</h3><p>Robust Python engineering, automation, data tooling, APIs and scientific computing.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-spark"/></svg></span><h3>Generative AI</h3><p>LLM-powered applications, chatbots, RAG systems and content-generation platforms.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-chat"/></svg></span><h3>Prompt Engineering</h3><p>Designing, evaluating and optimizing prompts that make AI systems reliable.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-bars"/></svg></span><h3>Data Science</h3><p>From raw data to decisions, analytics, visualization and statistical modelling.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-eye"/></svg></span><h3>Computer Vision</h3><p>Image and video intelligence: detection, recognition, OCR and visual inspection.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Cyber Security</h3><p>Security assessments, secure development practices and awareness training.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-dev"/></svg></span><h3>Software Development</h3><p>End-to-end web, mobile and enterprise applications engineered for scale.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-cap"/></svg></span><h3>Faculty Development Programs</h3><p>Hands-on FDPs that equip educators with current, industry-relevant skills.</p></article>
+          <article class="service reveal"><span class="service__icon"><svg class="ic"><use href="#i-gear"/></svg></span><h3>Industry Workshops</h3><p>Immersive workshops and bootcamps connecting learners to real industry practice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why Choose Us (dark editorial band) ===== -->
+    <section class="section why" id="why-us">
+      <div class="container">
+        <div class="section__head section__head--light reveal">
+          <p class="eyebrow eyebrow--light">The RSS TechLabs Difference</p>
+          <h2 class="section__title">Why Organizations Choose Us</h2>
+        </div>
+
+        <div class="why__grid">
+          <article class="why__card reveal"><span class="why__num">01</span><h3>Research-First Innovation</h3><p>Every engagement begins with rigorous R&amp;D, grounded in the latest advances, not yesterday's templates.</p></article>
+          <article class="why__card reveal"><span class="why__num">02</span><h3>Deep Technical Expertise</h3><p>Specialists across AI, ML, security and software engineering who build, teach and stay hands-on.</p></article>
+          <article class="why__card reveal"><span class="why__num">03</span><h3>Academia + Industry DNA</h3><p>Fluency in both worlds enables programs and products that are academically sound and industry-ready.</p></article>
+          <article class="why__card reveal"><span class="why__num">04</span><h3>Client-Centric Delivery</h3><p>Transparent communication, tailored engagement models and long-term partnership over transactions.</p></article>
+          <article class="why__card reveal"><span class="why__num">05</span><h3>Quality &amp; Security Built-In</h3><p>Secure-by-design engineering and disciplined quality practices in everything we ship.</p></article>
+          <article class="why__card reveal"><span class="why__num">06</span><h3>End-to-End Capability</h3><p>From idea and prototype to production and team upskilling, one partner across the journey.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Industries ===== -->
+    <section class="section" id="industries">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Sectors</p>
+          <h2 class="section__title">Industries We Serve</h2>
+          <p class="section__sub">Domain-aware solutions and programs across six priority sectors.</p>
+        </div>
+
+        <div class="industries__grid">
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-bank"/></svg></span><div><h3>Education &amp; Universities</h3><p>FDPs, workshops, curriculum consulting and research collaboration.</p></div></article>
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-pulse"/></svg></span><div><h3>Healthcare</h3><p>AI-assisted diagnostics research, medical imaging and health analytics.</p></div></article>
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-bars"/></svg></span><div><h3>Finance &amp; FinTech</h3><p>Fraud detection, risk modelling and intelligent process automation.</p></div></article>
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-factory"/></svg></span><div><h3>Manufacturing</h3><p>Computer-vision quality inspection and predictive maintenance.</p></div></article>
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-bag"/></svg></span><div><h3>Retail &amp; E-Commerce</h3><p>Recommendation systems, demand forecasting and customer analytics.</p></div></article>
+          <article class="industry reveal"><span class="industry__icon"><svg class="ic"><use href="#i-rocket"/></svg></span><div><h3>Startups &amp; SMEs</h3><p>Rapid prototyping, MVP engineering and AI product development.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA band ===== -->
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>Have an initiative worth researching?</h2>
+          <p>Let's turn it into working software, together.</p>
+        </div>
+        <a href="#contact" class="btn btn--light btn--lg">Schedule a Discussion<svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--tinted" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section__title">Speak with RSS TechLabs</h2>
+          <p class="section__sub">We would be glad to hear about your project, program or partnership.</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <a class="contact__item reveal" href="tel:+916281585749">
+              <span class="contact__icon"><svg class="ic"><use href="#i-phone"/></svg></span>
+              <span><em>Phone</em><strong>+91 62815 85749</strong></span>
+            </a>
+            <a class="contact__item reveal" href="tel:+918179643007">
+              <span class="contact__icon"><svg class="ic"><use href="#i-phone"/></svg></span>
+              <span><em>Alternate Phone</em><strong>+91 81796 43007</strong></span>
+            </a>
+            <a class="contact__item reveal" href="mailto:rsstechlab1406@gmail.com">
+              <span class="contact__icon"><svg class="ic"><use href="#i-mail"/></svg></span>
+              <span><em>Email</em><strong>rsstechlab1406@gmail.com</strong></span>
+            </a>
+            <div class="contact__item reveal">
+              <span class="contact__icon"><svg class="ic"><use href="#i-pin"/></svg></span>
+              <span><em>Registered Office</em><strong>Hyderabad, Telangana, India</strong></span>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <h3>Send us a message</h3>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="cfName">Your Name</label>
+                <input type="text" id="cfName" name="name" placeholder="Full name" required autocomplete="name" />
+              </div>
+              <div class="form__group">
+                <label for="cfEmail">Email</label>
+                <input type="email" id="cfEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="cfSubject">Subject</label>
+              <input type="text" id="cfSubject" name="subject" placeholder="How can we help?" required />
+            </div>
+            <div class="form__group">
+              <label for="cfMessage">Message</label>
+              <textarea id="cfMessage" name="message" rows="5" placeholder="Tell us about your project or program…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg btn--block">Send Message</button>
+            <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--footer" aria-label="RSS TechLabs, back to top">
+          <span class="brand__plate">
+            <img class="brand__img" src="assets/logo.webp" alt="RSS TechLabs, Research and Software Solutions" width="720" height="181" />
+          </span>
+        </a>
+        <p>An R&amp;D-driven technology company bridging academia with industry from Hyderabad, India.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Quick links">
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#industries">Industries</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer__col" aria-label="Focus areas">
+        <h4>Capabilities</h4>
+        <a href="#services">Artificial Intelligence</a>
+        <a href="#services">Generative AI</a>
+        <a href="#services">Cyber Security</a>
+        <a href="#services">Software Development</a>
+        <a href="#services">FDPs &amp; Workshops</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+916281585749">+91 62815 85749</a>
+        <a href="tel:+918179643007">+91 81796 43007</a>
+        <a href="mailto:rsstechlab1406@gmail.com">rsstechlab1406@gmail.com</a>
+        <span>Hyderabad, Telangana, India</span>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="year"></span> RSS TechLabs, Research and Software Solutions. All rights reserved.</p>
+        <p>Founded by Shiva Kumar · Hyderabad, India</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
